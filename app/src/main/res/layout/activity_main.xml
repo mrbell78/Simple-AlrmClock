@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+   <TimePicker
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:id="@+id/timepicker"
+       />
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:padding="15dp"
+       android:layout_gravity="center">
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Trurn on Alarm"
+          android:textSize="20sp"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+          android:textStyle="bold"
+          android:id="@+id/start_alarm"
+          />
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Trun off Alarm"
+          android:textSize="20sp"
+          android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+          android:textStyle="bold"
+          android:id="@+id/end_alarm"
+          android:layout_marginLeft="20dp"
+          />
+
+
+
+   </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Do u set the alarm?"
+        android:textSize="20sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:id="@+id/update"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
